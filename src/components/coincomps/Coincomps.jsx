@@ -42,7 +42,7 @@ const Coincomps = ({ data }) => {
       };
 
       try {
-        const url = "";
+        const url = "https://dappconnectlaunchpad.onrender.com/details";
 
         const res = await fetch(url, {
           method: "POST",
